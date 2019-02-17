@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewAndViewgroup</string>
+    <string name="tv_text">I am a text of the text view!</string>
+    <string name="edit1_text">I am a text 1!</string>
+    <string name="edit2_text">I am the text 2!</string>
+    <string name="btn_text">Click here!</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExternalStorage"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter data here" />
+
+    <Button
+        android:id="@+id/bt_saveToPubext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save to Public Storage storage"
+        android:onClick="saveToPublicStorage"/>
+    <Button
+        android:id="@+id/bt_saveToPrivExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save to Private Storage storage"
+        android:onClick="saveToPrivateStorage"/>
+
+    <Button
+        android:id="@+id/bt_readFromPubExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read from Public Storage storage"
+        android:onClick="readFromPublicStorage"/>
+    <Button
+        android:id="@+id/bt_readFromPrivExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read from Private Storage storage"
+        android:onClick="readFromPrivateStorage"/>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info box..."
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Read data" />
+</LinearLayout>

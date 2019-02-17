@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableRow android:background="#ffffff">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:text="LARGER"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/btn1"
+            android:text="MEDIUM"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/btn2"
+            android:text="SMALL"
+            android:textSize="14sp" />
+    </TableRow>
+
+    <TableRow android:background="#f19191">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:paddingTop="20dp"
+            android:text="Text of this TextView is very long!"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text="12345"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:typeface="normal" />
+    </TableRow>
+
+    <TableRow android:background="#9e9999">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="0"
+            android:text="Android"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="0"
+            android:text="Navigation"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="0"
+            android:text="Mobile GIS"
+            android:textAlignment="textStart" />
+    </TableRow>
+
+    <TableRow android:background="#ffffff">
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_span="3"
+            android:text="OK"
+            android:textSize="14sp" />
+    </TableRow>
+</TableLayout>

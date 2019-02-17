@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:paddingLeft="1dp"
+        android:text="@string/tv_text"
+        android:textColor="#F3f3f3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFffff"
+        android:hint="@string/edit1_text"
+        android:inputType="text"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="#ffffff"
+        android:hint="@string/edit2_text"
+        android:inputType="numberPassword"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="40dp"
+        android:padding="40dp"
+        android:text="@string/btn_text" />
+
+</LinearLayout>

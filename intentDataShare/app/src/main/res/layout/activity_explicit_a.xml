@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityExplicitA">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dataA1"
+        android:textSize="25sp"
+        android:hint="Enter number 1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dataA2"
+        android:textSize="25sp"
+        android:hint="Enter number 2" />
+
+    <Button
+        android:id="@+id/bt_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send data to activity B"
+        android:onClick="gotoActivityExplicitB"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_data"
+        android:textSize="25sp"
+        android:hint="Result?" />
+    <Button
+        android:id="@+id/bt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share result"
+        android:onClick="gotoActivityExplicitIntentDataSharing"
+        />
+
+</LinearLayout>
